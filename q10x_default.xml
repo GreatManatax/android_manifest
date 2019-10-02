@@ -14,6 +14,11 @@
            revision="q10x"
            fetch="https://github.com/DirtyUnicorns/" />
 
+   <!-- the "me" remote -->
+  <remote  name="GreatManatax"
+           revision="q10x"
+           fetch="https://github.com/GreatManatax/" />
+
   <!-- DU REPOS -->
 
   <!-- General -->
@@ -45,7 +50,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="du" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="du" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="GreatManatax" revision="test" />
   <project path="frameworks/native" name="android_frameworks_native" remote="du" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="du" />
 
@@ -71,12 +76,12 @@
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="du" />
   <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="du" />
-  <project path="packages/apps/DU-Changelog" name="android_packages_apps_DU-Changelog" remote="du" />
-  <project path="packages/apps/DU-Themes" name="android_packages_apps_DU-Themes" remote="du" />
-  <project path="packages/apps/DU-Tweaks" name="android_packages_apps_DU-Tweaks" remote="du" />
+  <project path="packages/apps/DU-Changelog" name="android_packages_apps_DU-Changelog" remote="GreatManatax" revision="test" />
+  <project path="packages/apps/DU-Themes" name="android_packages_apps_DU-Themes" remote="GreatManatax" revision="test" />
+  <project path="packages/apps/DU-Tweaks" name="android_packages_apps_DU-Tweaks" remote="GreatManatax" revision="test" />
   <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="du" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="du" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="du" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="GreatManatax" revision="test" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="du" />
   <project path="packages/apps/Traceur" name="android_packages_apps_Traceur" remote="du" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="du" />
@@ -100,7 +105,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="du" />
 
   <!-- Vendor -->
-  <project path="vendor/du" name="android_vendor_du" remote="du" >
+  <project path="vendor/du" name="android_vendor_du" remote="GreatManatax" revision="test">
     <linkfile src="scripts/merge-aosp.sh" dest="merge-aosp.sh" />
   </project>
   <project path="vendor/extras" name="android_vendor_extras" remote="du" />
