@@ -40,7 +40,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="development" name="android_development" remote="du" />
-  <project path="manifest" name="android_manifest" remote="du" />
+  <project path="manifest" name="android_manifest" remote="GreatManatax" />
   <project path="platform_testing" name="android_platform_testing" remote="du" />
 
   <!-- External -->
@@ -108,7 +108,7 @@
   <project path="vendor/du" name="android_vendor_du" remote="GreatManatax" revision="test">
     <linkfile src="scripts/merge-aosp.sh" dest="merge-aosp.sh" />
   </project>
-  <project path="vendor/extras" name="android_vendor_extras" remote="du" />
+  <project path="vendor/extras" name="android_vendor_extras" remote="GreatManatax" />
   <project path="vendor/support" name="android_vendor_support" remote="du" />
   <project path="vendor/themes" name="android_vendor_themes" remote="du" />
 
