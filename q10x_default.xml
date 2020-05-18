@@ -58,6 +58,7 @@
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="du" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="du" />
   <project path="hardware/ril" name="android_hardware_ril" remote="du" />
+  <project path="hardware/qcom/vr" name="android_hardware_qcom_vr" remote="GreatManatax" revision="q10x" />
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="du" >
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
