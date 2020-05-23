@@ -9,6 +9,10 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
 
+  <!-- Alternate remote -->
+  <remote  name="alternate"
+           fetch="https://git.dirtyunicorns.com/DirtyUnicorns/" />
+
   <!-- DU remote -->
   <remote  name="du"
            revision="q10x"
